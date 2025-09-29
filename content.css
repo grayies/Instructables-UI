@@ -1,0 +1,1071 @@
+/* Dark mode styles for Instructables */
+/* Specific targeting for the collection section */
+.instructables-dark-mode ._collection_7y0nn_18 {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+.instructables-dark-mode ._collectionText_7y0nn_61 {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+.instructables-dark-mode ._collectionText_7y0nn_61 h3 {
+  color: #fac62d !important;
+}
+
+.instructables-dark-mode ._title_h3_1oyw5_39 {
+  color: #fac62d !important;
+}
+
+.instructables-dark-mode ._collectionText_7y0nn_61 p {
+  color: #cccccc !important;
+}
+
+.instructables-dark-mode ._button_156n2_17 {
+  background-color: #fac62d !important;
+  color: #1a1a1a !important;
+  border-color: #fac62d !important;
+}
+
+.instructables-dark-mode ._button_156n2_17:hover {
+  background-color: #ffd95e !important;
+  border-color: #ffd95e !important;
+}
+
+.instructables-dark-mode ._button_156n2_17 path {
+  fill: #1a1a1a !important;
+}
+
+.instructables-dark-mode ._collectionImages_7y0nn_70 {
+  background-color: #2d2d2d !important;
+}
+
+/* Make sure the SVG arrow icon in the button is visible */
+.instructables-dark-mode ._button_156n2_17 svg path {
+  fill: #1a1a1a !important;
+}
+html.instructables-dark-mode,
+body.instructables-dark-mode {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+.instructables-dark-mode {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Target common Instructables classes more aggressively */
+.instructables-dark-mode .header,
+.instructables-dark-mode nav,
+.instructables-dark-mode .nav-bar,
+.instructables-dark-mode header,
+.instructables-dark-mode [class*="header"],
+.instructables-dark-mode [class*="nav"] {
+  background-color: #2d2d2d !important;
+  border-color: #444 !important;
+  color: #e0e0e0 !important;
+}
+
+.instructables-dark-mode .article-header,
+.instructables-dark-mode .step-body,
+.instructables-dark-mode .step-content,
+.instructables-dark-mode .ible-main,
+.instructables-dark-mode .content,
+.instructables-dark-mode .main,
+.instructables-dark-mode [class*="content"],
+.instructables-dark-mode [class*="main"] {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+.instructables-dark-mode .step-nav,
+.instructables-dark-mode .step-nav-button,
+.instructables-dark-mode .button,
+.instructables-dark-mode button,
+.instructables-dark-mode [class*="button"] {
+  background-color: #3d3d3d !important;
+  border-color: #555 !important;
+  color: #e0e0e0 !important;
+}
+
+.instructables-dark-mode .title-row,
+.instructables-dark-mode .title,
+.instructables-dark-mode h1,
+.instructables-dark-mode h2,
+.instructables-dark-mode h3,
+.instructables-dark-mode h4,
+.instructables-dark-mode h5,
+.instructables-dark-mode h6 {
+  color: #fac62d !important; /* Changed to yellow */
+}
+
+.instructables-dark-mode .description,
+.instructables-dark-mode .step-text,
+.instructables-dark-mode p,
+.instructables-dark-mode span,
+.instructables-dark-mode div {
+  color: #cccccc !important;
+}
+
+.instructables-dark-mode .footer,
+.instructables-dark-mode footer {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+}
+
+.instructables-dark-mode a {
+  color: #fac62d !important; /* Changed to yellow */
+}
+
+.instructables-dark-mode code,
+.instructables-dark-mode pre {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+  border-color: #444 !important;
+}
+
+/* Override specific Instructables classes */
+.instructables-dark-mode .ible-header,
+.instructables-dark-mode .ible-main,
+.instructables-dark-mode .ible-content {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Input fields */
+.instructables-dark-mode input,
+.instructables-dark-mode textarea,
+.instructables-dark-mode select {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+  border-color: #555 !important;
+}
+
+/* Links on hover */
+.instructables-dark-mode a:hover {
+  color: #ffd95e !important; /* Lighter yellow for hover */
+}
+
+/* Special elements that should use the yellow color */
+.instructables-dark-mode [class*="title"],
+.instructables-dark-mode [class*="heading"],
+.instructables-dark-mode [class*="name"] {
+  color: #fac62d !important;
+}
+/* Do not change gradient overlay */
+.instructables-dark-mode ._gradientOverlay_1sh04_22 {
+  background: initial !important;
+  background-color: initial !important;
+  filter: none !important;
+  color: inherit !important;
+}
+/* Keep banner original colors */
+.instructables-dark-mode ._bannerContent_1sh04_32,
+.instructables-dark-mode ._bannerContent_1sh04_32 * {
+  background: initial !important;
+  background-color: initial !important;
+  color: initial !important;
+  border-color: initial !important;
+  filter: none !important;
+}
+/* Exclude Instructables homepage collections from dark mode */
+.instructables-dark-mode ._content_7y0nn_12,
+.instructables-dark-mode ._content_7y0nn_12 * {
+  background: initial !important;
+  background-color: initial !important;
+  color: initial !important;
+  border-color: initial !important;
+  filter: none !important;
+}
+
+/* Dark-mode for closed contests container; keep the inner header unchanged */
+/* .instructables-dark-mode ._closedContests_18z7l_12 {
+  background-color: #2d2d2d !important;
+  color: #e0e0e0 !important;
+} */
+
+/* Apply dark-mode to children but exclude the specific header class */
+/* .instructables-dark-mode
+  ._closedContests_18z7l_12
+  *:not(._closedContestHeader_18z7l_28) {
+  background: transparent !important;
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: #444 !important;
+} */
+
+/* Explicitly preserve the closed contest header and its descendants (do not change) */
+.instructables-dark-mode
+  ._closedContests_18z7l_12
+  ._closedContestHeader_18z7l_28,
+.instructables-dark-mode
+  ._closedContests_18z7l_12
+  ._closedContestHeader_18z7l_28
+  * {
+  /* background: initial !important;
+  background-color: initial !important; */
+  color: initial !important;
+  /* border-color: initial !important; */
+  /* filter: none !important; */
+  /* box-shadow: initial !important; */
+  text-decoration-color: #cccccc !important;
+  /* fill: initial !important;
+  stroke: initial !important; */
+}
+
+/* Only style the h4 title text/link inside the closed contest header */
+.instructables-dark-mode
+  ._closedContests_18z7l_12
+  ._closedContestHeader_18z7l_28
+  ._title_h4_1oyw5_46._noto_bold_1oyw5_8,
+.instructables-dark-mode
+  ._closedContests_18z7l_12
+  ._closedContestHeader_18z7l_28
+  ._title_h4_1oyw5_46._noto_bold_1oyw5_8
+  a {
+  color: #cccccc !important;
+}
+
+/* Keep the "Closed" tag text color unchanged */
+.instructables-dark-mode
+  ._closedContests_18z7l_12
+  ._closedContestHeader_18z7l_28
+  ._closedTag_1hsz2_23._tag_1hsz2_9 {
+  color: #cccccc !important;
+}
+
+/* Style the user menu wrapper and its non-button links/icons (do not affect ._button_*) */
+.instructables-dark-mode ._userMenuWrapper_semk8_127 {
+  background: transparent !important;
+  color: #cccccc !important;
+  border: none !important;
+}
+
+/* Non-button anchors inside the wrapper (icons, plain links) */
+.instructables-dark-mode ._userMenuWrapper_semk8_127 a:not([class*="_button"]) {
+  color: #cccccc !important;
+}
+
+/* SVG/icon fills for non-button anchors inside the wrapper */
+.instructables-dark-mode
+  ._userMenuWrapper_semk8_127
+  a:not([class*="_button"])
+  svg,
+.instructables-dark-mode
+  ._userMenuWrapper_semk8_127
+  a:not([class*="_button"])
+  svg
+  path {
+  fill: #cccccc !important;
+  color: #cccccc !important;
+}
+
+/* Style the logged-out menu container and non-button links/icons (do not affect ._button_*) */
+.instructables-dark-mode ._loggedOutMenu_semk8_133 {
+  background: transparent !important;
+  color: #cccccc !important;
+  border: none !important;
+}
+
+.instructables-dark-mode ._loggedOutMenu_semk8_133 a:not([class*="_button"]) {
+  color: #cccccc !important;
+}
+
+.instructables-dark-mode
+  ._loggedOutMenu_semk8_133
+  a:not([class*="_button"])
+  svg,
+.instructables-dark-mode
+  ._loggedOutMenu_semk8_133
+  a:not([class*="_button"])
+  svg
+  path {
+  fill: #cccccc !important;
+  color: #cccccc !important;
+}
+
+/* Make the top-left logo/nav use the same muted light color */
+.instructables-dark-mode ._logoNav_1ynxl_95,
+.instructables-dark-mode ._logoNav_1ynxl_95 a {
+  color: initial !important;
+  background: initial !important;
+  border-color: none !important;
+}
+
+.instructables-dark-mode ._logoNav_1ynxl_95 svg,
+.instructables-dark-mode ._logoNav_1ynxl_95 svg path {
+  fill: #cccccc !important;
+  color: #cccccc !important;
+}
+
+/* If the logo is an img, ensure it appears lighter (optional) */
+.instructables-dark-mode ._logoNav_1ynxl_95 img {
+  filter: brightness(0.95) !important;
+}
+
+/* Ensure Autodesk/Instructables logo background is fully transparent and icons use muted color */
+.instructables-dark-mode ._logoNav_1ynxl_95 ._autodeskLogo,
+.instructables-dark-mode ._logoNav_1ynxl_95 ._autodeskLogo svg,
+.instructables-dark-mode ._logoNav_1ynxl_95 ._autodeskLogo svg path,
+.instructables-dark-mode ._logoNav_1ynxl_95 ._autodeskLogo img,
+.instructables-dark-mode ._logoNav_1ynxl_95 ._autodeskLogo .Autodesk,
+.instructables-dark-mode a[title*="Autodesk"],
+.instructables-dark-mode a[title*="Autodesk"] svg,
+.instructables-dark-mode a[title*="Autodesk"] svg path,
+.instructables-dark-mode a[title*="Autodesk"] img,
+.instructables-dark-mode [class*="autodesk"],
+.instructables-dark-mode [class*="autodesk"] svg,
+.instructables-dark-mode [class*="autodesk"] svg path,
+.instructables-dark-mode [class*="autodesk"] img {
+  fill: #cccccc !important;
+  color: #cccccc !important;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Target the Autodesk/Instructables logo image (SVG file) and ensure transparent background */
+.instructables-dark-mode img[alt="Autodesk Instructables logo"],
+.instructables-dark-mode img[src*="instructables-logo-2023.svg"] {
+  background: transparent !important;
+  background-color: transparent !important;
+  /* Slightly mute the image if it's an embedded SVG rasterized via <img> */
+  filter: brightness(0.95) saturate(0.9) !important;
+  opacity: 0.95 !important;
+  mix-blend-mode: normal !important;
+}
+
+/* Projects tertiary button: yellow text/icon and no border/outline/shadow */
+.instructables-dark-mode
+  a._button_156n2_17._buttonTertiary_156n2_162._buttonMedium_156n2_46 {
+  color: #fac62d !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* SVG/icon inside the Projects button */
+.instructables-dark-mode
+  a._button_156n2_17._buttonTertiary_156n2_162._buttonMedium_156n2_46
+  svg,
+.instructables-dark-mode
+  a._button_156n2_17._buttonTertiary_156n2_162._buttonMedium_156n2_46
+  svg
+  path {
+  fill: #fac62d !important;
+}
+
+/* Keep hover/focus state borderless and same color */
+.instructables-dark-mode
+  a._button_156n2_17._buttonTertiary_156n2_162._buttonMedium_156n2_46:hover,
+.instructables-dark-mode
+  a._button_156n2_17._buttonTertiary_156n2_162._buttonMedium_156n2_46:focus {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #fac62d !important;
+}
+
+/* Make the cancel-icon button background transparent (no border/shadow) */
+.instructables-dark-mode ._cancelIcon_kzxl0_57,
+.instructables-dark-mode button._cancelIcon_kzxl0_57,
+.instructables-dark-mode a._cancelIcon_kzxl0_57 {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Ensure SVG inside stays visually neutral (no background); preserve its fill/color behavior */
+.instructables-dark-mode ._cancelIcon_kzxl0_57 svg,
+.instructables-dark-mode ._cancelIcon_kzxl0_57 svg path {
+  background: transparent !important;
+  background-color: transparent !important;
+  fill: currentColor !important;
+  color: inherit !important;
+}
+
+/* Simplify global search: only a yellow border, transparent interior */
+.instructables-dark-mode ._globalSearchTextInput_kzxl0_23 {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #fac62d !important;
+  box-shadow: none !important;
+  padding: 6px 8px !important;
+  border-radius: 6px !important;
+}
+
+/* Remove inner chrome and keep input/buttons transparent */
+.instructables-dark-mode
+  ._globalSearchTextInput_kzxl0_23
+  ._inputWrapper_kzxl0_30,
+.instructables-dark-mode
+  ._globalSearchTextInput_kzxl0_23
+  input._searchInput_3i53d_19,
+.instructables-dark-mode ._globalSearchTextInput_kzxl0_23 button,
+.instructables-dark-mode
+  ._globalSearchTextInput_kzxl0_23
+  ._searchButton_kzxl0_72 {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: #e0e0e0 !important;
+}
+
+/* Placeholder color */
+.instructables-dark-mode
+  ._globalSearchTextInput_kzxl0_23
+  input._searchInput_3i53d_19::placeholder {
+  color: #bfbfbf !important;
+}
+
+/* Make the search icon match the yellow border (optional) */
+.instructables-dark-mode ._globalSearchTextInput_kzxl0_23 svg path {
+  fill: #fac62d !important;
+  color: #fac62d !important;
+}
+/* Make contest navigation wrapper transparent */
+.instructables-dark-mode ._contestNavWrapper_d5e2x_8 {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make the nav itself transparent */
+.instructables-dark-mode ._contestNav_d5e2x_8 {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+/* Make links container transparent */
+.instructables-dark-mode ._links_d5e2x_26 {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make actions container transparent */
+.instructables-dark-mode ._actions_d5e2x_26 {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make deadline text transparent */
+.instructables-dark-mode ._deadline_d5e2x_32 {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #e0e0e0 !important; /* Keep text visible but on transparent background */
+}
+
+/* Make form transparent */
+.instructables-dark-mode ._form_d5e2x_47 {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Optional: Keep the button styled but you can also make it transparent if needed */
+.instructables-dark-mode ._form_d5e2x_47 ._button_156n2_17 {
+  /* Remove this section if you want the button to remain yellow */
+  background-color: transparent !important;
+  border-color: #fac62d !important;
+  color: #fac62d !important;
+}
+
+/* If you want the button to be completely transparent too */
+.instructables-dark-mode ._form_d5e2x_47 ._button_156n2_17 {
+  background-color: transparent !important;
+  background: transparent !important;
+  border: 1px solid #fac62d !important;
+  color: #fac62d !important;
+}
+
+.instructables-dark-mode ._form_d5e2x_47 ._button_156n2_17:hover {
+  background-color: rgba(250, 198, 45, 0.1) !important;
+  border-color: #ffd95e !important;
+  color: #ffd95e !important;
+}
+
+/* Ensure all child elements inherit transparency */
+.instructables-dark-mode ._contestNavWrapper_d5e2x_8 * {
+  background-color: transparent !important;
+}
+/* Make the entire footer top row transparent */
+.instructables-dark-mode .footer-row-top {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make footer categories section transparent */
+.instructables-dark-mode .footer-categories {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make footer about us section transparent */
+.instructables-dark-mode .footer-about-us {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make footer resources section transparent */
+.instructables-dark-mode .footer-resources {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make footer find us section transparent */
+.instructables-dark-mode .footer-find-us {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make the footer robot icon transparent */
+.instructables-dark-mode .footer-robot {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make category lists transparent */
+.instructables-dark-mode .footer-categories-links {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make individual list items transparent */
+.instructables-dark-mode .footer-categories-links li {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make category icons transparent */
+.instructables-dark-mode .category-icon {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make about us and resources lists transparent */
+.instructables-dark-mode .footer-about-us ul,
+.instructables-dark-mode .footer-resources ul,
+.instructables-dark-mode .footer-find-us ul {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make list items transparent */
+.instructables-dark-mode .footer-about-us li,
+.instructables-dark-mode .footer-resources li,
+.instructables-dark-mode .footer-find-us li {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Keep text visible but on transparent background */
+.instructables-dark-mode .footer-row-top .title {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #e0e0e0 !important;
+}
+
+.instructables-dark-mode .footer-row-top a {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #cccccc !important;
+}
+
+.instructables-dark-mode .footer-row-top a:hover {
+  color: #fac62d !important;
+}
+
+/* Make SVG icons transparent */
+.instructables-dark-mode .svg-icon {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Ensure all child elements within footer top row inherit transparency */
+.instructables-dark-mode .footer-row-top * {
+  background-color: transparent !important;
+}
+/* Make the entire footer bottom row transparent */
+.instructables-dark-mode .footer-row-bottom {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make footer links container transparent */
+.instructables-dark-mode .footer-links {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make footer links list transparent */
+.instructables-dark-mode .footer-links-list {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make individual list items transparent */
+.instructables-dark-mode .footer-links-list li {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make paragraph text transparent */
+.instructables-dark-mode .footer-links p {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #e0e0e0 !important;
+}
+
+/* Make links transparent */
+.instructables-dark-mode .footer-links a {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #cccccc !important;
+}
+
+.instructables-dark-mode .footer-links a:hover {
+  color: #fac62d !important;
+}
+
+/* Make divider text transparent */
+.instructables-dark-mode .divider {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #666666 !important;
+}
+
+/* Make Autodesk logo link transparent */
+.instructables-dark-mode .adsk-logo {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make Autodesk logo image transparent */
+.instructables-dark-mode .adsk-logo img {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make the footer rule/divider transparent */
+.instructables-dark-mode .footer-rule {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make the horizontal rule transparent with subtle border */
+.instructables-dark-mode .footer-rule hr {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: #444 !important;
+  border-top: 1px solid #444 !important;
+  height: 1px !important;
+}
+
+/* Ensure all child elements within footer bottom row inherit transparency */
+.instructables-dark-mode .footer-row-bottom * {
+  background-color: transparent !important;
+}
+/* Change banner text color to yellow */
+.instructables-dark-mode ._bannerText_1sh04_50 {
+  color: #fac62d !important;
+}
+
+/* Change banner title color to yellow */
+.instructables-dark-mode ._bannerText_1sh04_50 ._title_1sh04_57 {
+  color: #fac62d !important;
+}
+
+/* Change banner subtitle color to yellow */
+.instructables-dark-mode ._bannerText_1sh04_50 ._subtext_1sh04_70 {
+  color: #cccccc !important;
+}
+
+/* Ensure all text elements inside the banner text container are yellow */
+.instructables-dark-mode ._bannerText_1sh04_50 h1,
+.instructables-dark-mode ._bannerText_1sh04_50 h2,
+.instructables-dark-mode ._bannerText_1sh04_50 h3,
+.instructables-dark-mode ._bannerText_1sh04_50 p,
+.instructables-dark-mode ._bannerText_1sh04_50 span {
+  color: #fac62d !important;
+}
+/* Base button styles with subtle glow */
+.instructables-dark-mode
+  a._button_156n2_17._buttonPrimary_156n2_60._buttonMedium_156n2_46[href*="instructables20"] {
+  background-color: #fac62d !important;
+  color: #1a1a1a !important;
+  border-color: #fac62d !important;
+  box-shadow: 0 0 10px rgba(250, 198, 45, 0.5), 0 0 20px rgba(250, 198, 45, 0.3) !important;
+  animation: gentle-pulse 3s ease-in-out infinite !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+}
+
+/* Hover effects - enhanced glow and motion */
+.instructables-dark-mode
+  a._button_156n2_17._buttonPrimary_156n2_60._buttonMedium_156n2_46[href*="instructables20"]:hover {
+  background-color: #ffd95e !important;
+  border-color: #ffd95e !important;
+  box-shadow: 0 0 20px rgba(250, 198, 45, 0.8), 0 0 40px rgba(250, 198, 45, 0.6),
+    0 0 60px rgba(250, 198, 45, 0.4) !important;
+  transform: translateY(-2px) scale(1.02) !important;
+  animation: hover-pulse 1s ease-in-out infinite !important;
+}
+
+/* SVG arrow color */
+.instructables-dark-mode
+  a._button_156n2_17._buttonPrimary_156n2_60._buttonMedium_156n2_46[href*="instructables20"]
+  path {
+  fill: #1a1a1a !important;
+}
+
+/* Gentle pulsing animation for normal state */
+@keyframes gentle-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(250, 198, 45, 0.5),
+      0 0 20px rgba(250, 198, 45, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(250, 198, 45, 0.7),
+      0 0 25px rgba(250, 198, 45, 0.4);
+  }
+}
+
+/* Faster, more intense pulsing for hover state */
+@keyframes hover-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(250, 198, 45, 0.8),
+      0 0 40px rgba(250, 198, 45, 0.6), 0 0 60px rgba(250, 198, 45, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(250, 198, 45, 1), 0 0 50px rgba(250, 198, 45, 0.8),
+      0 0 70px rgba(250, 198, 45, 0.6);
+  }
+}
+
+/* Make the entire subtitle the base yellow color */
+.instructables-dark-mode ._subtext_1sh04_70 {
+  color: #fac62d !important;
+  position: relative;
+}
+
+/* Create a glowing effect that emphasizes numbers */
+.instructables-dark-mode ._subtext_1sh04_70 {
+  text-shadow: 0 0 10px rgba(250, 198, 45, 0.3),
+    0 0 20px rgba(250, 198, 45, 0.2);
+  animation: number-glow 3s ease-in-out infinite;
+}
+
+/* Enhanced glow specifically for numbers on hover */
+.instructables-dark-mode ._subtext_1sh04_70:hover {
+  animation: number-glow-hover 1s ease-in-out infinite;
+}
+
+@keyframes number-glow {
+  0%,
+  100% {
+    text-shadow: 0 0 10px rgba(250, 198, 45, 0.3),
+      0 0 20px rgba(250, 198, 45, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(250, 198, 45, 0.6),
+      0 0 25px rgba(250, 198, 45, 0.4), 0 0 35px rgba(250, 198, 45, 0.2);
+  }
+}
+
+@keyframes number-glow-hover {
+  0%,
+  100% {
+    text-shadow: 0 0 15px rgba(250, 198, 45, 0.6),
+      0 0 25px rgba(250, 198, 45, 0.4), 0 0 35px rgba(250, 198, 45, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(250, 198, 45, 0.8),
+      0 0 40px rgba(250, 198, 45, 0.6), 0 0 60px rgba(250, 198, 45, 0.4);
+  }
+}
+/* Make the entire collection section yellow text */
+.instructables-dark-mode ._collection_7y0nn_18 {
+  background-color: #2d2d2d !important;
+  color: #fac62d !important;
+}
+
+.instructables-dark-mode ._collectionText_7y0nn_61 {
+  background-color: #2d2d2d !important;
+  color: #fac62d !important;
+}
+
+/* Make all text elements yellow */
+.instructables-dark-mode ._collectionText_7y0nn_61 h3,
+.instructables-dark-mode ._collectionText_7y0nn_61 h2,
+.instructables-dark-mode ._collectionText_7y0nn_61 p {
+  color: #fac62d !important;
+}
+
+/* Make the button yellow with glow effects */
+.instructables-dark-mode ._collectionText_7y0nn_61 ._button_156n2_17 {
+  background-color: #fac62d !important;
+  color: #1a1a1a !important;
+  border-color: #fac62d !important;
+  box-shadow: 0 0 8px rgba(250, 198, 45, 0.4), 0 0 15px rgba(250, 198, 45, 0.2) !important;
+  animation: button-glow 3s ease-in-out infinite !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Button hover glow */
+.instructables-dark-mode ._collectionText_7y0nn_61 ._button_156n2_17:hover {
+  background-color: #ffd95e !important;
+  border-color: #ffd95e !important;
+  box-shadow: 0 0 15px rgba(250, 198, 45, 0.7), 0 0 30px rgba(250, 198, 45, 0.4) !important;
+  transform: translateY(-1px) !important;
+  animation: button-glow-hover 1.5s ease-in-out infinite !important;
+}
+
+/* SVG arrow in button */
+.instructables-dark-mode ._collectionText_7y0nn_61 ._button_156n2_17 path {
+  fill: #1a1a1a !important;
+}
+/* EXCEPTION: Keep social button SVGs their original colors */
+.instructables-dark-mode ._socialButtons_ez9w2_65 ._button_156n2_17 path,
+.instructables-dark-mode ._socialButtons_ez9w2_65 ._button_156n2_17 svg path {
+  fill: initial !important;
+}
+
+/* More specific targeting for each social button */
+.instructables-dark-mode ._socialButtons_ez9w2_65 form[action*="oxygen"] path,
+.instructables-dark-mode ._socialButtons_ez9w2_65 form[action*="google"] path,
+.instructables-dark-mode
+  ._socialButtons_ez9w2_65
+  form[action*="facebook"]
+  path {
+  fill: initial !important;
+}
+
+/* Ensure the text stays white in social buttons */
+.instructables-dark-mode ._socialButtons_ez9w2_65 ._button_156n2_17 {
+  color: #ffffff !important;
+}
+
+.instructables-dark-mode ._socialButtons_ez9w2_65 ._button_156n2_17 div {
+  color: #ffffff !important;
+}
+/* Make image links glow on hover */
+.instructables-dark-mode ._collectionImages_7y0nn_70 a {
+  transition: all 0.3s ease !important;
+  border-radius: 4px !important;
+}
+
+.instructables-dark-mode ._collectionImages_7y0nn_70 a:hover {
+  box-shadow: 0 0 15px rgba(250, 198, 45, 0.6), 0 0 30px rgba(250, 198, 45, 0.3) !important;
+  transform: translateY(-2px) scale(1.05) !important;
+  z-index: 10 !important;
+  position: relative !important;
+}
+
+/* Make images inside links have a yellow tint on hover */
+.instructables-dark-mode ._collectionImages_7y0nn_70 a:hover img {
+  filter: brightness(1.1) saturate(1.2) !important;
+}
+
+/* Collection title link glow */
+.instructables-dark-mode
+  ._collectionText_7y0nn_61
+  a[href*="Wonderful-Wearables"]:not(._button_156n2_17) {
+  color: #fac62d !important;
+  transition: all 0.3s ease !important;
+}
+
+.instructables-dark-mode
+  ._collectionText_7y0nn_61
+  a[href*="Wonderful-Wearables"]:not(._button_156n2_17):hover {
+  text-shadow: 0 0 10px rgba(250, 198, 45, 0.7),
+    0 0 20px rgba(250, 198, 45, 0.4) !important;
+  color: #ffd95e !important;
+}
+
+/* Glow animations */
+@keyframes button-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 8px rgba(250, 198, 45, 0.4),
+      0 0 15px rgba(250, 198, 45, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(250, 198, 45, 0.6),
+      0 0 20px rgba(250, 198, 45, 0.3);
+  }
+}
+
+@keyframes button-glow-hover {
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(250, 198, 45, 0.7),
+      0 0 30px rgba(250, 198, 45, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(250, 198, 45, 0.9),
+      0 0 35px rgba(250, 198, 45, 0.5);
+  }
+}
+/* Make the title link glow */
+.instructables-dark-mode ._title_11ruk_45 {
+  color: #fac62d !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+}
+
+/* Glow effect on hover */
+.instructables-dark-mode ._title_11ruk_45:hover {
+  color: #ffd95e !important;
+  text-shadow: 0 0 10px rgba(250, 198, 45, 0.7),
+    0 0 20px rgba(250, 198, 45, 0.4), 0 0 30px rgba(250, 198, 45, 0.2) !important;
+}
+
+/* Optional: Add a subtle pulsing glow animation when not hovered */
+.instructables-dark-mode ._title_11ruk_45 {
+  animation: title-glow 4s ease-in-out infinite !important;
+}
+
+@keyframes title-glow {
+  0%,
+  100% {
+    text-shadow: 0 0 5px rgba(250, 198, 45, 0.3),
+      0 0 10px rgba(250, 198, 45, 0.1);
+  }
+  50% {
+    text-shadow: 0 0 8px rgba(250, 198, 45, 0.5),
+      0 0 15px rgba(250, 198, 45, 0.2);
+  }
+}
+
+/* Enhanced glow animation on hover */
+.instructables-dark-mode ._title_11ruk_45:hover {
+  animation: title-glow-hover 1.5s ease-in-out infinite !important;
+}
+
+@keyframes title-glow-hover {
+  0%,
+  100% {
+    text-shadow: 0 0 10px rgba(250, 198, 45, 0.7),
+      0 0 20px rgba(250, 198, 45, 0.4), 0 0 30px rgba(250, 198, 45, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(250, 198, 45, 0.9),
+      0 0 25px rgba(250, 198, 45, 0.6), 0 0 35px rgba(250, 198, 45, 0.3);
+  }
+}
+/* Make member link white */
+.instructables-dark-mode a[href*="/member/"] {
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+}
+
+/* Yellow glow effect on hover */
+.instructables-dark-mode a[href*="/member/"]:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 10px rgba(250, 198, 45, 0.7),
+    0 0 20px rgba(250, 198, 45, 0.4), 0 0 30px rgba(250, 198, 45, 0.2) !important;
+}
+
+/* Optional: Add a subtle pulsing white glow animation when not hovered */
+.instructables-dark-mode a[href*="/member/"] {
+  animation: member-glow 4s ease-in-out infinite !important;
+}
+
+@keyframes member-glow {
+  0%,
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3),
+      0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+      0 0 15px rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* Enhanced yellow glow animation on hover */
+.instructables-dark-mode a[href*="/member/"]:hover {
+  animation: member-glow-hover 1.5s ease-in-out infinite !important;
+}
+
+@keyframes member-glow-hover {
+  0%,
+  100% {
+    text-shadow: 0 0 10px rgba(250, 198, 45, 0.7),
+      0 0 20px rgba(250, 198, 45, 0.4), 0 0 30px rgba(250, 198, 45, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(250, 198, 45, 0.9),
+      0 0 25px rgba(250, 198, 45, 0.6), 0 0 35px rgba(250, 198, 45, 0.3);
+  }
+}
+/* Remove background from Autodesk button text container */
+.instructables-dark-mode ._socialButtons_ez9w2_65 ._button_156n2_17 div {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Remove background from Create your account title */
+.instructables-dark-mode ._title_ez9w2_37 {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Ensure the SVG icon in Autodesk button has no background */
+.instructables-dark-mode ._socialButtons_ez9w2_65 ._button_156n2_17 svg {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Make sure the path inside SVG is also transparent */
+.instructables-dark-mode ._socialButtons_ez9w2_65 ._button_156n2_17 svg path {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+/* Make only the text in Autodesk button white */
+.instructables-dark-mode ._socialButton_ez9w2_65._button_156n2_17 {
+  color: #ffffff !important;
+}
+
+.instructables-dark-mode ._socialButton_ez9w2_65._button_156n2_17 div {
+  color: #ffffff !important;
+}
+
+/* Specifically exclude social button SVGs from the black fill rule */
+.instructables-dark-mode ._socialButtons_ez9w2_65 ._button_156n2_17 svg path {
+  fill: initial !important;
+  color: initial !important;
+}
+
+/* Or if you want to be more specific, target the Autodesk SVG directly */
+.instructables-dark-mode
+  ._socialButtons_ez9w2_65
+  form[action*="oxygen"]
+  svg
+  path {
+  fill: initial !important;
+}
+
+/* Also fix the other social buttons to keep their original colors */
+.instructables-dark-mode
+  ._socialButtons_ez9w2_65
+  form[action*="google"]
+  svg
+  path {
+  fill: initial !important;
+}
+
+.instructables-dark-mode
+  ._socialButtons_ez9w2_65
+  form[action*="facebook"]
+  svg
+  path {
+  fill: initial !important;
+}

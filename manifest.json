@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Instructables Dark Mode",
+  "version": "1.0",
+  "description": "Adds dark mode to Instructables website",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://www.instructables.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Instructables Dark Mode"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.instructables.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
